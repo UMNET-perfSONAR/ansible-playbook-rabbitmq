@@ -1,0 +1,9 @@
+# perfsonar.yml main perfSONAR config
+
+- name: rabbitmq
+  tags: 
+    - rabbitmq
+  hosts:
+    - rabbitmq_hosts
+  roles:
+    - ansible-role-rabbitmq
